@@ -136,5 +136,6 @@ For more reconciliation services to try, check out this list: [https://github.co
 
 Now you’re ready for [**OpenRefine Augmenting Activity 3: Using Add Column by Fetching URLs**](https://mdl.library.utoronto.ca/technology/tutorials/openrefine-augmenting-activity-3-using-add-column-fetching-urls)
 
-Technique: [Cleaning data](/technique/cleaning-data), [Extracting data](/technique/extracting-data) \| Tools: [OpenRefine](/tools/openrefine)  
+**Technique:** [Cleaning data](https://mdlutoronto.github.io/tutorials-search/?technique=Cleaning+data), [Extracting data](https://mdlutoronto.github.io/tutorials-search/?technique=Extracting+data) \| **Tools:** [OpenRefine](https://mdlutoronto.github.io/tutorials-search/?tool=OpenRefine)
+
 **Date Created:** 2019\-04\-03 **Updated:** 2024\-03\-21
