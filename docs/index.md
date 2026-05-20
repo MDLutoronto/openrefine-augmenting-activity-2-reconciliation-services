@@ -20,7 +20,7 @@ This tutorial will teach you how to use OpenRefine's reconciliation service to c
 
  
 
-*This tutorial has been developed for OpenRefine version 3\.7\.5*
+*This tutorial has been developed for OpenRefine version 3.7.5*
 
 To learn more about reconciliation services and how you can use them to augment your data, check out the [official OpenRefine guide to reconciling](https://openrefine.org/docs/manual/reconciling) Feel free to read just the introduction and “Basics” sections for now, and then to return to this resource later if you like.
 
@@ -39,15 +39,15 @@ The goal of this activity is to reconcile the titles of books we have in our dat
 Reconcile (match) the titles of books with Wikidata
 ---------------------------------------------------
 
-1. Make sure that you are using the new project we created from the **books.json** file in activity 1\.
+1. Make sure that you are using the new project we created from the **books.json** file in activity 1.
 
-2. Before we begin, we need to rename the title column to exclude any special characters, such as **\_** or **\-**. If left in, special characters can cause errors in later steps.
+2. Before we begin, we need to rename the title column to exclude any special characters, such as **_** or **-**. If left in, special characters can cause errors in later steps.
 
-    To rename the column, from the **\_ \- title** column pull down menu, select **edit column \> rename this column.** Rename it 'title'.
+    To rename the column, from the **_ - title** column pull down menu, select **edit column > rename this column.** Rename it 'title'.
 
     <img src='{{ '/assets/images/OpenRefine6_2.png' | relative_url }}' alt='From the title pull down menu, edit column is selected followed by rename this column' title='' width='85%' height='85%' />
 
-3. From the **title** column pull down menu, select **reconcile \> start reconciling.** 
+3. From the **title** column pull down menu, select **reconcile > start reconciling.** 
 
     <img src='{{ '/assets/images/OpenRefine6_3.png' | relative_url }}' alt='from the title column pull down menu, reconcile is selected, followed by start reconciling ' title='' width='60%' height='60%' />
 
@@ -87,13 +87,13 @@ Reconcile (match) the titles of books with Wikidata
 
     <img src='{{ '/assets/images/OpenRefine6_11b.png' | relative_url }}' alt='In the search for match pop up, Jane Eyre: An Autobiography is written in the box. There are no suggested matches. ' title='' width='80%' height='80%' />
 
-    In the **search box**\- change what it is searching for by **erasing all the text after the word "Eyre".**
+    In the **search box** - change what it is searching for by **erasing all the text after the word "Eyre".**
 
-    Now it should be able to find some potential matches. You can hover over each option to find the one that makes sense to match \- in this case the **first one**, a literary work.**Select it.**It is now matched, and will no longer show up in our list of unmatched items.
+    Now it should be able to find some potential matches. You can hover over each option to find the one that makes sense to match - in this case the **first one**, a literary work.**Select it.**It is now matched, and will no longer show up in our list of unmatched items.
 
     <img src='{{ '/assets/images/OpenRefine6_11c.png' | relative_url }}' alt='In the search for match pop up, Jane Eyre is written in the box. There are many matches. The 1847 novel by Charlotte Bronte is selected. ' title='' width='90%' height='90%' />
 
-12. In some cases, there are some potential matches listed, with their match scores (out of 100\) in parentheses next to it. You can click on each option to decide which is correct. In these situations, you are presented with a box with one checkmark and one with two checkmarks.
+12. In some cases, there are some potential matches listed, with their match scores (out of 100) in parentheses next to it. You can click on each option to decide which is correct. In these situations, you are presented with a box with one checkmark and one with two checkmarks.
 
     If you only want to match this one record/row, select the box with one checkmark. If on the other hand we had multiple entries for this title in our list, we could select the second box with two checkmarks to match everywhere it is found in the list. We know that for our dataset, each book title is unique, so we can select the box with one checkmark next to the correct item, as appropriate.
 
@@ -106,7 +106,7 @@ Reconcile (match) the titles of books with Wikidata
     Add new columns of data from Wikidata
 -------------------------------------
 
-13. Once you have your data matched to the Wikidata database, a benefit of reconciliation is that you can then easily add additional columns of data to augment your dataset. From the **title** column pull down menu, select **edit columns \> add column from reconciled values…**
+13. Once you have your data matched to the Wikidata database, a benefit of reconciliation is that you can then easily add additional columns of data to augment your dataset. From the **title** column pull down menu, select **edit columns > add column from reconciled values…**
 
     ***Note:** This option only appears in more recent versions of OpenRefine.*  
 
@@ -124,7 +124,7 @@ Reconcile (match) the titles of books with Wikidata
 
     <img src='{{ '/assets/images/OpenRefine6_15a_Updated.png' | relative_url }}' alt='Under the title column, Pride and Prejudice is selected. ' title='' width='80%' height='80%' />
 
-    Scroll down the page to see all the properties available. Let’s add one. From the **title** column pull down menu, select **edit columns \> add column from reconciled values…** Search for “characters” in the search box at the top. This should add a column with data on the main characters of the book. You should see an example in the preview window on the right. Click on **OK** to add that column to your dataset.
+    Scroll down the page to see all the properties available. Let’s add one. From the **title** column pull down menu, select **edit columns > add column from reconciled values…** Search for “characters” in the search box at the top. This should add a column with data on the main characters of the book. You should see an example in the preview window on the right. Click on **OK** to add that column to your dataset.
 
     <img src='{{ '/assets/images/OpenRefine6_15b.png' | relative_url }}' alt='In the add columns from reconciled columns pop up, characters has been added to the search bar. The characters option has been selected. ' title='' width='100%' height='100%' />
 
@@ -132,7 +132,7 @@ Reconcile (match) the titles of books with Wikidata
 
 So you can see that although there is some manual work involved in using reconciliation services, they can be an easy way to normalize your data, and then augment it with additional information.
 
-For more reconciliation services to try, check out this list: [https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable\-Data\-Sources](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources)
+For more reconciliation services to try, check out this list: [https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources)
 
 Now you’re ready for [**OpenRefine Augmenting Activity 3: Using Add Column by Fetching URLs**](https://mdl.library.utoronto.ca/technology/tutorials/openrefine-augmenting-activity-3-using-add-column-fetching-urls)
 
